@@ -1,0 +1,36 @@
+.myformclass{
+	padding: 1rem;
+}
+
+.mytextcenter{
+	margin: 1rem auto;
+	text-align: center;
+	display: block;
+}
+
+.mydivclass{
+	margin: 1rem auto;
+}
+
+.myimageclass{
+	width: 50px;
+	display: block;
+	margin: 1rem auto;
+}
+
+.myitemclass{
+	color: black;
+	margin-top: 0.5rem;
+}
+
+.mycheck{
+	width: 100%;
+	display: block;
+	margin: 1rem auto;
+	height: 2rem;
+}
+
+.doneClass{
+	background: #00c851;
+	color: white;
+}

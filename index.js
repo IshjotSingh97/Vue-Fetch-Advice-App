@@ -1,5 +1,3 @@
-console.log("Script Started")
-
 const API = 'https://api.adviceslip.com/advice'
 
 

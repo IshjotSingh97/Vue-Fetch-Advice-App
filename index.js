@@ -8,7 +8,7 @@ const app = new Vue({
     data: {
         heading: "Fetch Advice App Using Vue",
         id: null,
-        advice : null
+        advice : null,
     },
     methods: {
         async fetchdata() {

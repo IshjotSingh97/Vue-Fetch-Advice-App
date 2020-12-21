@@ -23,9 +23,16 @@
 <body>
     <div id="app" class="col-md-6 mydivclass">
         <img src="https://vuejs.org/images/logo.png" alt="thumbnail" class="img-thumbnail myimageclass">
+        
         <h1 class="mytextcenter h1-responsive">{{heading}}</h1>
-        <h1 class="mytextcenter h1-responsive">{{advice}}</h1>
-
+        <div class="card" style="width: 18rem;margin: 0 auto;">
+            <img class="card-img-top" src="images/index.jpg" alt="Card image cap" >
+            <div class="card-body">
+                <h5 class="card-title">Advice ID. {{id}}</h5>
+                <p class="card-text" style="color: black;font-weight: bold;">{{advice}}</p>
+                <button class="btn btn-primary" style="display: block;" @click="fetchdata()">Fetch Another Advice</button>
+            </div>
+        </div>
     </div>
     <hr>
     <!-- JQuery -->
@@ -39,7 +46,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
-
 </body>
 
 </html>

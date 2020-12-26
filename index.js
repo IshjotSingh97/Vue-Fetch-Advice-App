@@ -9,7 +9,7 @@ const app = new Vue({
         advice : null,
     },
     methods: {
-        async fetchdata() {
+        fetchdata() {
             axios.get(API)
                 .then((response) => {
                     this.id = response.data.slip.id
